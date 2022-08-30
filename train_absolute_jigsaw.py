@@ -1,7 +1,7 @@
 from torch.utils.data import DataLoader
 import torch.optim as optim
 import torch
-from dataloader import DatasetGeneratorMultimodal, MyTransformer
+from dataloader_absolute_jigsaw import DatasetGeneratorMultimodal, MyTransformer
 from networks import ResNet, ObjectClassifier, PermClassifier
 from utils import entropy_loss, weights_init, IteratorWrapper
 from torch import nn
